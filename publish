@@ -1,0 +1,13 @@
+npm set init.author.name "Sandeep Srivastava"
+
+npm set init.author.email "sandeep2008@gmail.com"
+
+npm set init.author.url http://sandeepsrivastava.in
+
+npm login
+npm init
+
+git add.
+git commit -m "Initial release"
+git tag v0.0.1
+git push origin master --tags

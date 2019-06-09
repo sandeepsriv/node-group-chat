@@ -1,16 +1,38 @@
 {
-  "name": "node-simple-group-chat",
+  "name": "tradingsystem",
   "version": "1.0.0",
   "description": "A simple group chat built using Node.js and Socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Diky Hadna",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
     "socket.io": "^2.2.0"
-  }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepsriv/tradingsystem.git"
+  },
+  "keywords": [
+    "trading",
+    "system"
+  ],
+  "bugs": {
+    "url": "https://github.com/sandeepsriv/tradingsystem/issues"
+  },
+  "homepage": "https://github.com/sandeepsriv/tradingsystem#readme"
 }

@@ -7,6 +7,7 @@ app.get('/', function(req, res) {
     res.render('index.ejs');
 });
 
+
 io.sockets.on('connection', function(socket) {
     socket.on('username', function(username) {
         socket.username = username;
